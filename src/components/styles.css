@@ -8,8 +8,8 @@
     line-height: 1.5em;
     max-width:50rem;
     overflow: hidden;
-    word-wrap: break-word;
-    line-break: loose;
+    /* word-wrap: normal; */
+    /* line-break: loose; */
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 5;
@@ -39,4 +39,8 @@
 
 .input-box-and-history-section {
     display: flex;
+}
+
+.textField {
+    font-family: monospace;
 }
