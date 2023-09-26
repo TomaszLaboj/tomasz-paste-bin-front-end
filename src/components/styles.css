@@ -44,3 +44,7 @@
 .textField {
     font-family: monospace;
 }
+
+.preview {
+    max-height: fit-content;
+}
